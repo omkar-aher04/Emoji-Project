@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    font-family: "Dancing Script", cursive;
+}
+
+h1{
+    text-align: center;
+    color: #FA4032;
+}
+input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40% ;
+    height: 37px;
+    width: 224px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 35px;
+    padding: auto;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.submit{
+    height: 27px;
+    width: 60px;
+    margin-top: 6px;
+    display:none;
+}
+form{
+    display: flex;
+    gap: 15px;
+    
+}
+#results{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+.emojiIcon{
+    font-size: 50px;
+    margin: 10px;
+    /* border: 2px solid; */
+    /* background-color: #FDFAF6;
+    border-radius: 26px;
+    box-shadow: 0 2px 5px;
+    text-align: center; */
+    cursor: pointer;
+}
